@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ListView</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="styles.css" />
+	</head>
+	<body >
+
+		<!-- éléments cachés pour jouer avec :target
+			from "http://www.creativejuiz.fr/blog/css-css3/css3-effet-parallaxe-sans-javascript-->
+		<span id="s1">
+		</span>
+		
+		<span id="s2">
+		</span>
+		
+		<span id="s3">			
+		</span>
+
+		<div id="wrap">
+
+			<div id="slide1">
+
+				<h1>ListView</h1>
+				<ul>
+					<p>
+						ListView
+					</p>
+					<li>
+						This is a ListView example using only HTML and CSS3.
+					</li>
+				</ul>
+
+				<ul class="clickable">
+					<li>
+						<b><a href="#s3">Text</a></b>
+					</li>
+					<li>
+						<b><a href="#s2">Image</a></b>
+					</li>
+					<li>
+						<b>Item</b>
+					</li>
+					<li>
+						<b>Another Item</b>
+					</li>
+					<li>
+						<b>Yet Another Item</b>
+					</li>
+				</ul>
+			</div>
+
+			<div id="slide2">
+
+				<div class="button">
+					<a href="#s1">Back</a>
+				</div>
+				<h1>Image</h1>
+
+				<ul>
+					<li align="center">
+						<img src="images/tos.png" alt="image test" />
+					</li>
+				</ul>
+			</div>
+
+			<div id="slide3">
+
+				<div class="button">
+					<a href="#s1">Back</a>
+				</div>
+				<h1>Text</h1>
+
+				<ul>
+					<p>
+						ListView
+					</p>
+					<li>
+						This is a Text.
+					</li>
+				</ul>
+			</div>
+
+		</div>
+	</body>
+</html>
